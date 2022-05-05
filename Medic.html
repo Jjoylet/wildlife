@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital</title>
+    <STYLE>
+        form{
+            width:80%;
+            margin: 20px;
+            border:3px solid black ;
+            background-image: url("Images/hospital.PNG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+        div{
+            padding:8px;
+        }
+
+        .contactinput {
+            width: 30%;
+            padding: 12px 12px;
+            margin: 8px 0px;
+            display: inline-block;
+            box-sizzing: border-box;
+            border: 1px solid rebeccapurple;
+            border-radius: 8px;
+            font-family: "Arial Black";
+        }
+
+        .center{
+            text-align: center;
+            color:navy;
+        }
+
+        .label{
+            font-family: "Arial Black";
+            font-size: medium;
+            color: navy;
+        }
+    </STYLE>
+</head>
+<body>
+<h2 class="center"> Life care Hospital</h2>
+
+<form action="#">
+
+    <div>
+        <label class="label">Full name</label><br>
+        <input class="contactinput" type="text" name="full name" placeholder="eg Joy Jane"required>
+
+
+
+        <label class="label">Phone number</label>
+        <input class="contactinput" type="tel" name="pnumber" placeholder=" eg 0701171432">
+    </div>
+
+    <div>
+        <label class="label">Symptoms of ailment</label><br>
+        <input class="contactinput" type="text" name="symptoms of ailment">
+
+
+
+        <label class="label">Date of visit</label>
+        <input class="contactinput" type="datetime-local" name="date of visit">
+    </div>
+
+    <div>
+        <label class="label">Age</label><br>
+        <input class="contactinput" type="number" name="age">
+
+
+
+        <label class="label">Allergies</label>
+        <input class="contactinput" type="text" name="allergies">
+    </div>
+
+    <div>
+        <label class="label">Insurance cover</label><br>
+        <input class="contactinput" type="text" name="insurance cover" placeholder="input if you have one">
+    </div>
+
+    <div>
+        <label class="label">Gender</label>
+        <input type="radio" name="gender" value="female">
+        <label class="label">Female</label>
+
+        <input type="radio" name="gender" value="male">
+        <label class="label">Male</label>
+    </div>
+
+    <div>
+        <label class="label"> Have you been here before?</label>
+        <input type="checkbox" name="have you been here before?" value="YES">
+        <label class="label"> Yes</label>
+        <input type="checkbox" name="have you been here before?" value="NO">
+        <LABEL class="label"> No</LABEL>
+    </div>
+    <div>
+        <label class="label">Your county</label>
+        <select class="contactinput" name="your county" id="your county">
+            <option value="Machakos">Machakos</option>
+            <option value="Embu">Embu</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Bungoma">Bungoma</option>
+            <option value="Kakamega">Kakamega</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value=" Nakuru">Nakuru</option>
+
+        </select>
+    </div>
+    <div>
+        <input class="contactinput" type="submit" name="submit" value="SUBMIT">
+    </div>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,106 @@
+.topnav{
+    background-color: darkseagreen;
+    overflow: hidden;
+}
+
+.topnav a{
+    text-decoration: none;
+    padding: 14px 14px;
+    display: block;
+    float: left ;
+    text-align: center;
+    color: navy;
+}
+
+.topnav a:hover{
+    background-color : darkred;
+    color: black;
+}
+
+.landing{
+    background-image: url("../Images/Bird.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:800px;
+
+
+}
+
+.landtext{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    position: absolute;
+}
+
+
+.landbtn{
+    background-color: chartreuse;
+    padding:12px 12px;
+    color: black;
+    border-radius: 8px;
+    width: 40%;
+    border:none;
+    font-size: 25;
+
+
+}
+.separate{
+    margin-top: 5px;
+}
+
+.landbtn:hover{
+    background-color: darkblue;
+    color: rebeccapurple;
+}
+
+.tablestyle{
+    width:80%;
+    border: 1px solid darkblue;
+    background-color: sandybrown;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablestyle th,td {
+    border: solid black;
+    padding:10px;
+    text-align: center;
+    font-size: medium;
+}
+.flexbox{
+    display:flex;
+    margin-top: 10px;
+}
+.flexbox div{
+    margin:10px;
+
+}
+.flexbox p{
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.flexbox h3{
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+.formstyle{
+    background-color:darkgray;
+}
+.formstyle input{
+    width:100%;
+    padding:12px 12px;
+    margin:8px 0;
+    display:inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid black;
+}

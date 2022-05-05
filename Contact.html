@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMS</title>
+    <style>
+
+        form{
+            width:80%;
+            margin:20px;
+            border:10px solid navy;
+            background-image: url("Images/PROJECT PICTURES.PNG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+        div{
+            Padding: 10px
+        }
+
+        .contactinput{
+            width:30%;
+            padding:12px 12px;
+            margin:8px 0px;
+            display: inline-block;
+            box-sizzing: border-box;
+            border:1px solid rebeccapurple;
+            border-radius: 8px;
+
+
+        }
+        .center{
+            text-align: center;
+            color:navy;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<H3 class="center"> Fill in the form</H3>
+<form action="#">
+
+    <div>
+        <label>Full Name</label><br>
+        <input class="contactinput" type="text" name="fullname" placeholder="eg Joy Felistus"REQUIRED*>
+    </div>
+
+    <div>
+        <label>Email address</label><br>
+        <input class="contactinput" type="email" name="email" PLACEHOLDER="eg Felistusjoylet17@gmail.com"required*>
+    </div>
+
+    <div>
+        <label>Phone number</label><br>
+        <input class="contactinput" type="tel" name="pnumber" placeholder="eg 0791979709"required>
+    </div>
+
+    <div>
+        <label>County</label><br>
+        <select class="contactinput" name="County" id="county"required>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Kajiado">Kajiado</option>
+
+        </select>
+    </div>
+
+    <div>
+        <label> Date of booking</label><BR>
+        <input type="datetime-local" name="Date of booking">
+
+        <diV>
+            <input type="submit" name="submit" value="SUBMIT">
+        </diV>
+    </div>
+</form>
+</body>
+</html>

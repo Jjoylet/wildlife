@@ -1,0 +1,72 @@
+.topnav{
+    background-color: goldenrod;
+    overflow: hidden;
+}
+
+.topnav a{
+    text-decoration: none;
+    padding: 14px 14px;
+    display: block;
+    float: left ;
+    text-align: center;
+    color: black;
+}
+
+.topnav a:hover{
+    background-color : darkred;
+    color: black;
+}
+
+.landing{
+    background-image: url("../Images/Ami.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:900px;
+
+
+}
+
+.landtext{
+    text-align: center;
+    color: red;
+    font-size: 28px;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%,50%);
+    position: absolute;
+    padding: 6px;
+}
+
+
+.landbtn{
+    background-color: yellow;
+    padding:12px 12px;
+    color: black;
+    border-radius: 8px;
+    width: 40%;
+    border:none;
+    font-size: 25;
+
+
+}
+.separate{
+    margin-top: 5px;
+}
+
+.landbtn:hover{
+    background-color: darkblue;
+    color: rebeccapurple;
+}
+ .para{
+     background-color: black;
+     color: gold;
+     font-size: large;
+     text-align: center;
+ }
+ .heading{
+     background-color: black;
+     color: gold;
+     text-align: center;
+ }
+

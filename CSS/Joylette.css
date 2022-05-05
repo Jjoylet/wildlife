@@ -1,0 +1,29 @@
+.column{
+    width:30%;
+    Padding:6px;
+    display:inline-block;
+    background-color: white;
+
+.para{
+    font-size: 20px;
+    color:navy;
+    text-align: center;
+}
+
+.tablestyle{
+    width:80%;
+    border: 1px black;
+    background-color: dodgerblue;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablestyle th,td {
+    border: solid black;
+    padding:10px;
+    text-align: center;
+    font-size: medium;
+}
+
+
